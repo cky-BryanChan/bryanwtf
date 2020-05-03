@@ -1,0 +1,63 @@
+.RE-container {
+  padding: 0 5%;
+}
+
+.RE-title {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.RE-componentBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.RE-componentWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RE-componentName {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.RE-componentName i {
+  font-weight: 300;
+  font-size: 15px;
+  color: #888;
+}
+
+.RE-componentDescription {
+  margin: 20px 0;
+}
+
+.RE-componentDescription p {
+  font-size: 14px;
+  color: #888;
+}
+
+@media only screen and (max-width: 1024px) {
+  .RE-codeBlock {
+    display: none;
+  }
+}
+
+/* ErrorSnippet*/
+
+.RE-error-gen-btn {
+  background: #ed5565;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.RE-error-gen-btn:hover{
+  background: #DA4453
+}
